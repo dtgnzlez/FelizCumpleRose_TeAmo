@@ -1,0 +1,103 @@
+/* Fondo de pantalla */
+.bg {
+    background-image: url("assets/img/fondo001.png"); 
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+}
+
+/* Carta tipo ventana estilo opaco */
+.carta-ventana {
+    width: 320px;
+    background: rgba(151, 151, 151, 0.274); /* translúcido */
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(151, 151, 151, 0.274);
+    position: absolute;
+    right: 25px;
+    top: 25%;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+/* Barra superior estilo ventana */
+.barra-superior {
+    background: #d3d3d37a;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.contenido-carta {
+    padding: 15px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/* Reproductor */
+.player {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 260px;
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 14px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.player select {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* REPRODUCTOR TIPO SPOTIFY */
+.player {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    width: 260px;
+    background: rgba(20, 20, 20, 0.85);
+    backdrop-filter: blur(6px);
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.player img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.player button {
+    background: #ffffff22;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+    font-size: 18px;
+}
+
+.player button:hover {
+    background: #ffffff44;
+}
+
+.volume {
+    width: 100%;
+    margin-top: 10px;
+}

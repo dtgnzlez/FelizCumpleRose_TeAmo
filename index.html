@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XP Modernizado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Fondo -->
+    <div class="bg"></div>
+
+    <!-- Carta estilo ventana -->
+    <div class="carta-ventana">
+        <div class="barra-superior">
+            <span class="titulo">Te Amo 3 Millones 🤍</span>
+        </div>
+
+        <div class="contenido-carta">
+            <p>
+                Mi niña de ojitos preciosos 🤍
+                <br><br>
+Una vez te prometí regalarte una playlist, aunque aún no estaba terminada. Te dije que te la daría en tu cumpleaños, sin especificar cuál, y recuerdo que me respondiste que el tiempo pasa volando y que algún día sería tarde.  
+Hoy quiero decirte que no creo que sea tarde, aunque ya no hablemos. Lo que siento sigue vivo, y esta playlist llega como un abrazo en forma de canciones, como un recordatorio de que cada melodía guarda un pedacito de lo que eres para mí.  
+Espero que la recibas con mucho amor y que la disfrutes, porque está hecha pensando en ti, en tus sonrisas, en tus silencios, en todo lo que compartimos.  
+<br><br>
+Te amo 3 millones, y ese número se queda corto para lo que siento.  
+<br><br>
+Con todo mi cariño,  <br>
+Tu bebé; tu pajuo favorito<3
+            </p>
+        </div>
+    </div>
+
+<div class="player">
+    <img id="cover" src="assets/covers/default.jpeg">
+
+    <h3 id="song-title">Selecciona una canción</h3>
+
+    <div class="controls">
+        <button id="prev">⏮</button>
+        <button id="play">▶️</button>
+        <button id="next">⏭</button>
+    </div>
+
+    <input type="range" id="volume" class="volume" min="0" max="1" step="0.01">
+
+    <select id="selector">
+        <option value="PrimeraCita.mp3" data-title="Primera Cita – Carín León" data-cover="Primera.jpeg">Primera Cita – Carín León</option>
+
+        <option value="Complices.mp3" data-title="Complices – Reis Bélico" data-cover="complices.jpeg">Complices – Reis Bélico</option>
+
+        <option value="BesameSinSentir.mp3" data-cover="besame.jpeg">Bésame Sin Sentir - MicroTDH</option>
+
+        <option value="bailame.mp3" data-cover="bailame.jpeg">Báilame - Danny Ocean</option>
+
+        <option value="Contigo.mp3" data-cover="contigo.jpeg">Contigo - Bad Bunny</option>
+
+        <option value="TQMQA.mp3" data-title="TQMQA – Eladio Carrión" data-cover="TQMQA.jpeg">TQMQA – Eladio Carrión</option>
+
+        <option value="ComoPanas.mp3" data-cover="panas.jpeg">Como Panas - Bryant Myers</option>
+
+        <option value="Susurros.mp3" data-title="Susurros – Neutro Shorty" data-cover="susurros.jpeg">Susurros – Neutro Shorty</option>
+
+        <option value="TantaDroga.mp3" data-title="Tanta Droga – Eladio Carrión" data-cover="Tanta.jpeg">Tanta Droga – Eladio Carrión</option>
+
+        <option value="Nota.mp3" data-title="Nota – Jay Wheeler" data-cover="nota.jpeg"> Nota – Jay Wheeler</option>
+
+        <option value="Entra.mp3" data-title="Entra - MicroTDH" data-cover="entra.jpeg">Entra - MicroTDH</option>
+
+        <option value="100Conmigo.mp3" data-title="100 Conmigo – Eladio Carrión" data-cover="100.jpeg">100 Conmigo – Eladio Carrión</option>
+
+        <option value="SigoEnamorau.mp3" data-cover="enamorau.jpeg">Sigo Enamorau - Eladio Carrión</option>
+
+        <option value="HayAlgoQueMeGusta.mp3" data-title="Algo Me Gusta De Ti – Wisin & Yandel" data-cover="AMGDT.jpeg">Algo Me Gusta De Ti – Wisin & Yandel</option>
+
+        <option value="ComoTieneQueSer.mp3" data-title="Como Tiene Que Ser - Arcangel" data-cover="CTQS.jpeg">Como Tiene Que Ser - Arcangel</option>
+    
+        <option value="NDA.mp3" data-title="Nota de Amor – Carlos Vives" data-cover="NDA.jpeg"> Nota de Amor – Carlos Vives</option>
+
+        <option value="volvi.mp3" data-title="Volví a Nacer – Carlos Vives" data-cover="volvi.jpeg"> Volví a Nacer – Carlos Vives</option>
+
+        <option value="MAET.mp3" data-title="Mi Amor Eres Tú – Silvestre Dangon" data-cover="silvestre.jpeg"> Mi Amor Eres Tú – Silvestre Dangon</option>
+
+        <option value="gracias.mp3" data-title="Gracias – Silvestre Dangon" data-cover="silvestre.jpeg"> Gracias – Silvestre Dangon </option>
+
+        <option value="suerte.mp3" data-title="Mi Suerte – Morat" data-cover="morat.jpeg"> Mi Suerte – Morat</option>
+
+        <option value="chacha.mp3" data-title="Chachachá – Jósean log" data-cover="chacha.jpeg"> Chachachá – Jósean log</option>
+
+        <option value="LQS.mp3" data-title="Lo Que Siento – Cuco" data-cover="lqs.jpeg">Lo Que Siento – Cuco</option>
+        
+        <option value="nomas.mp3" data-title="Nomás Tú – El David" data-cover="nomas.jpeg"> Nomás Tú – El David</option>
+  
+    
+    </select>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
